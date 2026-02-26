@@ -9,9 +9,8 @@ class Solution:
 
             # Check possible jumps in context window
             for i in range(l, r + 1):
-
                 farthest = max(farthest, i + nums[i])
-
+                
             l = r + 1
             r = farthest
             jump += 1
