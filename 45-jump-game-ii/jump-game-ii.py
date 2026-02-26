@@ -16,12 +16,3 @@ class Solution:
             jump += 1
 
         return jump
-
-
-
-
-
-        
-
-
-        
